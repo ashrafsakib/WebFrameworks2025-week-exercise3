@@ -1,9 +1,9 @@
 import "./App.css";
+import React from 'react';
+import CostCalculator from './CostCalculator';
 
-function App() {
-  return <div className="App">
-    Write your solution here and remove this text
-  </div>;
-}
+const App: React.FC = () => {
+  return <CostCalculator priceOfSingleVMPerHour={0.5} />;
+};
 
 export default App;
